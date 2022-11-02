@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: ;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 60%;
+    margin: auto;
+    
+
+}
+#slack{
+    display:none;
+}
+
+.main-section button{
+    border: 1px solid #EAECF0;
+border-radius: 8px;
+    width: 100%;
+    height:13%;
+    margin-bottom: 15px;
+}
+
+.main-section button a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+img{
+    border-radius: 275px;
+    width: 88px;
+height: 88px;
+    
+}
