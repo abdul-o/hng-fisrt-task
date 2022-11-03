@@ -6,6 +6,7 @@
 
 body {
   overflow-y: scroll;
+
 }
 
 .profile-section {
@@ -92,4 +93,37 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+hr{
+    width: 70%;
+    margin: auto;
+}
+
+/* Mobile style */
+
+@media screen and (max-width: 641px) {
+  body {
+    background-color:#ffffff;
+  }
+  .foot {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 20%;
+    padding: 10px 10px 10px 10px;
+  }
+  .foot img {
+    margin-bottom: 10px;
+
+    width: 99.1px;
+    height: 24px;
+  }
+  .foot div {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  hr{
+    display: none;
+  }
 }
